@@ -1,0 +1,32 @@
+html, body{
+	margin:0px;
+	padding:0px;
+	font-family: Helvetica, Arial;
+}
+
+h1{
+	padding:100px 0px;
+	margin:0px;
+	background:#4527A0;
+	color: #fff;
+	text-align:center;
+}
+
+#content{
+	max-width:580px;
+	margin:100px auto;
+}
+
+#sticky_element{
+	width:100%;
+	padding:20px 0px;
+	background:#7C4DFF;
+	color: #fff;
+	text-align:center;
+	position:absolute;
+}
+
+#sticky_element.sticky{
+	position:fixed;
+	top:0px;
+}
